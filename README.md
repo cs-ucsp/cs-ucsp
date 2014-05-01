@@ -20,7 +20,7 @@ next step.
 
 There are two main methods to have a Ruby environment in your
 system. Either using your system packaging tool or rvm. I recomend to
-use rvm<http://rvm.io>, since it provides more flexibility when using mutiple Ruby
+use rvm <http://rvm.io>, since it provides more flexibility when using mutiple Ruby
 versions.
 
 This guide will use rvm for Ruby environment setup.
@@ -46,18 +46,18 @@ Clone the git repository
 
 Start hacking!
 
-# Project organization and making changes
+# Project organization and contributing
 
 The project uses the Bootstrap <http://getbootstrap.com/> front-end
 framework.
 
-	_layouts/ - contains website layout (general template)
-	css/ - contains custom and Bootstrap' CSS stylesheets
-	fonts/ - contains webfonts
-	img/ - contains images
-	js/ - contains custom and Bootstrap' Javascript
-	_posts/ - Ignore this directory by now :)
-	_config.yml - Jekyll configuration
+* _layouts/ - contains website layout (general template)
+* css/ - contains custom and Bootstrap' CSS stylesheets
+* fonts/ - contains webfonts
+* img/ - contains images
+* js/ - contains custom and Bootstrap' Javascript
+* _posts/ - Ignore this directory by now :)
+* _config.yml - Jekyll configuration
 
 ## Creating new pages / sections
 
