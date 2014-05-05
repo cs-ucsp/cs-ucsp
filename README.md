@@ -78,14 +78,8 @@ To test your changes, run `jekyll serve`. It will launch a webserver
 on <http://localhost:4000>. Enter that address in your browser and you
 are set.
 
-## Submitting changes
 
-To submit your changes to the public repository, you can do a git pull
-request. See this guide to learn how
-<https://help.github.com/articles/creating-a-pull-request>.
-
-
-# CONTROLLING THE PROJECT (REDMINE)
+# Controlling the project (REDMINE)
 
 We use Redmine to manage the tasks that need to be done for this project.
 
@@ -103,7 +97,7 @@ If you don't have an account, ask directly one, and we'll create and email it
  back to you.
 
 
-# HOW TO CONTRIBUTE:
+## How to contribute:
 
 For those issues that need to change the site code (including html, script, docs, 
 etc.), you need to use branches, go to the project root and create a new branch 
@@ -115,3 +109,5 @@ Then make your changes, commit them and then push it back to origin (github).
 Then on the github project page, create a new Pull Request with the branch you 
 created; We will make sure that the contribution is correct and merge it with 
 the master branch.
+
+You can learn more about Pull Requests here: <https://help.github.com/articles/creating-a-pull-request>.
