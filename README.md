@@ -84,3 +84,34 @@ To submit your changes to the public repository, you can do a git pull
 request. See this guide to learn how
 <https://help.github.com/articles/creating-a-pull-request>.
 
+
+# CONTROLLING THE PROJECT (REDMINE)
+
+We use Redmine to manage the tasks that need to be done for this project.
+
+For contributing you need to:
+ - Go to the Project on Redmine: http://cs.ucsp.edu.pe/projects/projects/cs-www
+ - Go to the Issues tab (http://cs.ucsp.edu.pe/projects/projects/cs-www/issues)
+ - Select the issue you want to solve 
+ (only the ones with status `New`, `In Progress` and `Feedback`)
+ - When you think the issue is solved, change its Status to `Resolved` and 
+ assign it to *Raul Gallegos* or *Rudy Godoy*.
+ - If you think that there should be more issues that are not listed there, go
+ ahead and create it, and assign *Raul Gallegos* or *Rudy Godoy* as watchers.
+
+If you don't have an account, ask directly one, and we'll create and email it
+ back to you.
+
+
+# HOW TO CONTRIBUTE:
+
+For those issues that need to change the site code (including html, script, docs, 
+etc.), you need to use branches, go to the project root and create a new branch 
+for the specific issue you are solving, for example for the issue #123:
+
+    git checkout -b ticket-123
+
+Then make your changes, commit them and then push it back to origin (github).
+Then on the github project page, create a new Pull Request with the branch you 
+created; We will make sure that the contribution is correct and merge it with 
+the master branch.
