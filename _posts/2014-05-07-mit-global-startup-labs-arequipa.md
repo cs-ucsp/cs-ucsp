@@ -28,7 +28,7 @@ móviles. La curricula tratara cuatro aspectos:
 	<li>Development of the business (Development)</li>
 </ol>
 
-Los interesados en participar deben registrarse utilizando este
+El costo del curso será de S/. 100. Los interesados en participar deben registrarse utilizando este
 formulario de [registro][registro].
 
 
