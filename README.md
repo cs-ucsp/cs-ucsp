@@ -78,6 +78,8 @@ To test your changes, run `jekyll serve`. It will launch a webserver
 on <http://localhost:4000>. Enter that address in your browser and you
 are set.
 
+You can also use `jekyll server -w` to make jekyll watch for changes
+and regenerate the static HTML.
 
 # Controlling the project (REDMINE)
 
