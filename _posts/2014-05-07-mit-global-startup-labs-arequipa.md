@@ -21,12 +21,39 @@ cuatro profesores del MIT, implica la creación y desarrollo de
 productos de software concretos, principalmente para plataformas
 móviles. La curricula tratara cuatro aspectos: 
 
-<ol>
-	<li>ICT Entrepreneurship Context (Context)</li>
-	<li>Mobile / Internet Service Toolkits and Techniques (Techniques)</li>
-	<li>Idea Generation (IdeaGen)</li>
-	<li>Development of the business (Development)</li>
-</ol>
+
+1. ICT Entrepreneurship Context (Context)
+2. Mobile / Internet Service Toolkits and Techniques (Techniques)
+3. Idea Generation (IdeaGen)
+	- Network effects
+	- Differentiation of services
+	- Monetization of mobile / internet services in regional context
+	- Student analysis of US businesses
+	- Writeup and pitch (3 min) of established business
+	- Big Data (reading/discussion)
+	- Value of data, Analyzing data examples
+	- Critique of services that gather / sell data
+	- Gamification (reading/discussion)
+	- Enticing users with games and incentives
+	- Social structures to engage users (reading / discussion)
+	- Presenting
+	- Public speaking exercises
+	- Powerpoint presentations
+	- Another round of pitches of same established business
+	- Discussion of local problems and opportunities
+	- Ask students to think about opportunities/problems in their daily life
+	- Group discussions to work on ideas
+	- Short writeup of ideas (pitch)
+	- Feedback from instructors on ideas
+	- Pitches to class on ideas
+	- Feedback from fellow students
+	- Monetary encouragement (competitions)
+4. Development of the business (Development)
+	- Solidifying pitch and plan
+	- Examples of great pitches
+	- Finding mentors through networking and pitching event
+	- Business plan
+
 
 El curso no tendrá costo para los participantes, sin embargo se
 realizara un proceso de selección por lo que los interesados en
