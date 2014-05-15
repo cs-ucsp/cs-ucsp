@@ -28,8 +28,10 @@ móviles. La curricula tratara cuatro aspectos:
 	<li>Development of the business (Development)</li>
 </ol>
 
-El costo del curso será de S/. 100. Los interesados en participar deben registrarse utilizando este
-formulario de [registro][registro].
+El curso no tendrá costo para los participantes, sin embargo se
+realizar un proceso de selección por lo que los interesados en
+participar deben registrarse utilizando este 
+[formulario de registro][Registro].
 
 
 #### Acerca del MIT Global Startup Labs
