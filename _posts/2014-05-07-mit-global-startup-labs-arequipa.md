@@ -29,7 +29,7 @@ móviles. La curricula tratara cuatro aspectos:
 </ol>
 
 El curso no tendrá costo para los participantes, sin embargo se
-realizar un proceso de selección por lo que los interesados en
+realizara un proceso de selección por lo que los interesados en
 participar deben registrarse utilizando este 
 [formulario de registro][Registro].
 
