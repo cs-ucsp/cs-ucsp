@@ -4,14 +4,12 @@
 /*
 /*****************************************************************************/
 
-body {
-    padding-top: 20px;
-}
 .footer {
     border-top: 1px solid #EEEEEE;
     margin-top: 40px;
     padding-bottom: 40px;
     padding-top: 40px;
+    background-color: #032F56;
 }
 .jumbotron {
     background-color: rgba(0, 0, 0, 0);
@@ -71,6 +69,7 @@ body {
 .masthead, .marketing, .footer {
     padding-left: 0;
     padding-right: 0;
+    background-color: #032F55;
 }
 }
 
@@ -81,6 +80,30 @@ body {
 /*
 /*****************************************************************************/
 
+div.masthead {
+    background: url('/img/san-pablo.png') no-repeat scroll 0% 0% #032F55;
+}
+
+div.logo-ucsp {
+    padding-top: 25px;
+    min-height: 130px;
+    text-align: center;
+}
+
+div.footer {
+    color: #FFFFFF;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+div.footer-contact {
+    text-align: center;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 /*****************************************************************************/
 /*
@@ -90,13 +113,6 @@ body {
 
 h1 {
     color: #032F55;
-}
-
-h3.logo-ucsp {
-    background-image: url('/img/logo-ucsp.png');
-    background-repeat: no-repeat;
-    padding-left: 100px;
-    height: 100px;
 }
 
 .modal-dialog {

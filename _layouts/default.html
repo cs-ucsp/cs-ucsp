@@ -22,9 +22,10 @@
   <body>
     <div class="container">
       <div class="masthead">
-	<h3 class="logo-ucsp">{{ site.name }}
-	<p class="small">{{ site.institution }}</p>
-	</h3>
+	<div class="logo-ucsp">
+          <a href="http://www.ucsp.edu.pe"><img src="/img/logo-ucsp.png"></a>
+	</div>
+        <div>
         <ul class="nav nav-justified">
           <li><a href="/">Inicio</a></li>
           <li {% if page.path == "about.html" %}class="active"{% endif %}><a href="/about.html">Nosotros</a></li>
@@ -33,8 +34,8 @@
           <li {% if page.path == "research.html" %}class="active"{% endif %}><a href="/research.html">Investigación</a></li>
           <li {% if page.path == "tools.html" %}class="active"{% endif %}><a href="/tools.html">Recursos</a></li>
         </ul>
+        </div>
       </div>
-
     
       <div class="row">
 	{{ content }}
@@ -43,7 +44,13 @@
       <!-- FOOTER -->
       <div class="footer">
         <p class="pull-right"><a href="#">Arriba</a></p>
-        <p>&copy; 2013, {{ site.name }} - <a href="http://www.ucsp.edu.pe">{{ site.institution }}</a> &middot; <a href="/contact.html">Contacto</a></p>
+        <p>&copy; 2013, {{ site.name }} - <a
+      href="http://www.ucsp.edu.pe">{{ site.institution }}</a>
+      &middot; <a href="/contact.html">Contacto</a></p>
+        <hr>
+        <div class="footer-contact">Campus Campiña Paisajista s/n Quinta Vivanco, Barrio de San
+      Lázaro, Arequipa | Telf: +51 54 605630, +51 54 605600  anexo
+      200, 300 ó 390 | Escríbenos a: institucional@ucsp.edu.pe<div>
       </div>
 
     </div><!-- /.container -->
