@@ -86,12 +86,12 @@ changes and regenerate the static HTML automatically.
 We use Redmine to manage the tasks that need to be done for this project.
 
 For contributing you need to:
- 1 Go to the Project on Redmine: http://cs.ucsp.edu.pe/projects/projects/cs-www
- 1 Go to the Issues tab (http://cs.ucsp.edu.pe/projects/projects/cs-www/issues)
- 1 Select the issue you want to solve 
+ 1. Go to the Project on Redmine: http://cs.ucsp.edu.pe/projects/projects/cs-www
+ 1. Go to the Issues tab (http://cs.ucsp.edu.pe/projects/projects/cs-www/issues)
+ 1. Select the issue you want to solve 
  (only the ones with status `New`, `In Progress` and `Feedback`)
- 1 When you think the issue is solved, change its Status to `Resolved`.
- 1 If you think that there should be more issues that are not listed there, go
+ 1. When you think the issue is solved, change its Status to `Resolved`.
+ 1. If you think that there should be more issues that are not listed there, go
  ahead, create and assign them to *Raul Gallegos* or *Rudy Godoy* as watchers.
 
 If you don't have an account contact either Raul or Rudy. We'll setup and email it
