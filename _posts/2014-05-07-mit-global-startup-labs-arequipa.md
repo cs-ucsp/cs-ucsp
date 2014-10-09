@@ -72,6 +72,6 @@ el área de tecnologias de la información y comunicaciones a los
 estudiantes de pre-grado en las regiones emergentes.
 
 
-[MIT-GSL]: http://gsl.mit.edu/program/peru-summer-2013/
+[MIT-GSL]: http://gsl.mit.edu/program/peru-summer-2014/
 [Registro]: https://docs.google.com/forms/d/193PZ45Fx7Rr8aC7BgCDUrolCofBMme8ggSblmlQ-I4k/viewform
 
