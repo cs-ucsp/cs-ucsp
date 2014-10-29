@@ -10,15 +10,14 @@
     <title>{{ page.title }} | {{ site.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link href="/css/bootswatch.css" rel="stylesheet">
 
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
 
     <!-- Custom CSS -->
-<!--    <link rel="stylesheet" href="/css/main.css"> -->
-    <link href="/css/carousel.css" rel="stylesheet">
+<!--    <link href="/css/carousel.css" rel="stylesheet"> -->
   </head>
   <body>
     <div class="container">
@@ -26,7 +25,7 @@
       <div class="page-header" id="banner">
         <div class="row">
           <div class="col-lg-7 col-md-7 col-sm-6">
-            <a href="http://www.ucsp.edu.pe">
+            <a href="http://cs.ucsp.edu.pe">
             <img src="/img/logo-ucsp.jpg" class="img-responsive img-rounded"></a>
           </div>
           <div class="col-lg-5 col-md-5 col-sm-6">
@@ -38,42 +37,40 @@
       
       <!-- // Navigation bar -->
       <div class="bs-docs-section clearfix">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="bs-component">
-              <div class="navbar navbar-default nabvar-inverse">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                  <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="/">Inicio</a>
-                </div>
-                <div class="navbar-collapse collapse navbar-responsive-collapse">
-                  <ul class="nav navbar-nav">
-                    <li {% if page.path == "about.html" %}class="active"{% endif %}><a href="/about.html">Nosotros</a></li>
-                    <li {% if page.path == "people.html" %}class="active"{% endif %}><a href="/people.html">Docentes</a></li>
-                    <li {% if page.path == "education.html" %}class="active"{% endif %}><a href="/education.html">Educación</a></li>
-                    <li {% if page.path == "research.html" %}class="active"{% endif %}><a href="/research.html">Investigación</a></li>
-                    <li {% if page.path == "tools.html" %}class="active"{% endif %}><a href="/tools.html">Recursos</a></li>
-                  </ul>
-                </div>
-              </div>
+        <nav class="navbar nabvar-inverse" role="navigation">
+          <div class="container-fluid">        
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+              <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">Inicio</a>
             </div>
-
-            <div class="bs-component">
+                
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+              <ul class="nav navbar-nav">
+                <li {% if page.path == "about.html" %}class="active"{% endif %}><a href="/about.html">Nosotros</a></li>
+                <li {% if page.path == "people.html" %}class="active"{% endif %}><a href="/people.html">Docentes</a></li>
+                <li {% if page.path == "education.html" %}class="active"{% endif %}><a href="/education.html">Educación</a></li>
+                <li {% if page.path == "research.html" %}class="active"{% endif %}><a href="/research.html">Investigación</a></li>
+                <li {% if page.path == "tools.html" %}class="active"{% endif %}><a href="/tools.html">Recursos</a></li>
+              </ul>
             </div>
-
           </div>
-        </div>
+        </nav>
       </div>
       
-      <!-- // Content -->            
+      <!-- // Content -->
+      {% if page.path == "index.html" %}
       <div class="row">
-        <div class="col-lg-12">          
 	{{ content }}
+      </div>
+      {% else %}
+      <div class="row">
+        <div class="col-lg-12">
+          {{ content }}
         </div>
       </div>
-
+      {% endif %}
       <!-- // Footer -->
       <footer>
         <div class="row">
@@ -93,7 +90,7 @@
     </div><!-- /.container -->
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="/js/holder.js"></script>
     <!-- Google Analytics -->
     <script>
