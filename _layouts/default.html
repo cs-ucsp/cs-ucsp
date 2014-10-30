@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="{{ page.title }} - Escuela de Ciencia de la Computación de la Universidad Católica San Pablo.">
+    <meta name="description" content="{{ page.title }} - Ciencia de la Computación de la Universidad Católica San Pablo.">
     <meta name="author" content="{{ site.author }}">
     <meta name="keywords" content="ucsp, san pablo, universidad catolica san pablo, arequipa, investigacion, computer science, ciencia computacion, catholic university peru" />
     <meta name="rights" content="Derechos Reservados, Universidad Católica San Pablo 2013 - 2014" />
     <title>{{ page.title }} | {{ site.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link href="/css/bootswatch.css" rel="stylesheet">
 
     <!-- syntax highlighting CSS -->
@@ -21,6 +21,9 @@
   </head>
   <body>
     <div class="container">
+
+      {%include ucsp-nav.html %}
+      
       <!-- // Header -->
       <div class="page-header" id="banner">
         <div class="row">
@@ -37,7 +40,7 @@
       
       <!-- // Navigation bar -->
       <div class="bs-docs-section clearfix">
-        <nav class="navbar nabvar-inverse" role="navigation">
+        <nav class="navbar navbar-inverse" role="navigation">
           <div class="container-fluid">        
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -90,7 +93,7 @@
     </div><!-- /.container -->
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/holder.js"></script>
     <!-- Google Analytics -->
     <script>
