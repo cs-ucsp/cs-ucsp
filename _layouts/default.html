@@ -48,17 +48,9 @@
               </button>
               <a class="navbar-brand" href="/">Inicio</a>
             </div>
-                
-            <div class="navbar-collapse collapse navbar-responsive-collapse">
-              <ul class="nav navbar-nav">
-                <li {% if page.path == "about.html" %}class="active"{% endif %}><a href="/about.html">Nosotros</a></li>
-                <li {% if page.path == "people.html" %}class="active"{% endif %}><a href="/people.html">Docentes</a></li>
-                <li {% if page.path == "education.html" %}class="active"{% endif %}><a href="/education.html">Educación</a></li>
-                <li {% if page.path == "research.html" %}class="active"{% endif %}><a href="/research.html">Investigación</a></li>
-                <li {% if page.path == "tools.html" %}class="active"{% endif %}><a href="/tools.html">Recursos</a></li>
-                <li {% if page.path == "education.html"%}class="active"{% endif %}><a href="/education.html">Plan de estudios</a></li>
-              </ul>
-            </div>
+            <!-- // CS NavBar -->
+            {% include cs-navbar.html %}
+            <!-- CS NavBar // -->
           </div>
         </nav>
       </div>
