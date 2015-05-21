@@ -4,3 +4,4 @@ markdown: redcarpet
 highlighter: pygments
 encoding: utf-8
 twitter_username: ucsp
+url: http://cs.ucsp.edu.pe
