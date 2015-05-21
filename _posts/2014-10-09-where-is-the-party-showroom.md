@@ -2,10 +2,12 @@
 layout: post
 title:  Showroom Where Is The Party - Ganador MIT Global Startups
 date:   2014-10-09 15:00:00
+first_image: logo-wtp.png
+description: Presentación de aplicación Where Is The Party en la UCSP.
 categories: startups
 ---
 
-<img src="/img/logo-wtp.png"  width="240" style="float:left; margin-right: 20px;">
+<img src="/img/{{ page.first_image }}"  width="240" style="float:left; margin-right: 20px;">
 
 El día 18 de octubre del presente año, el equipo de Where's The Party
 realizará un "Show Room" donde presentará el primer demo funcional de
