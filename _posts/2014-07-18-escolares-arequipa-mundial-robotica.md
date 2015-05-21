@@ -2,6 +2,7 @@
 layout: post
 title:  "Escolares de Arequipa representarán a Perú en mundial de robótica"
 date:   2014-07-18 18:10:00
+description: Escolares participarán junto con LARVIC en competencia mundial en Brasil.
 categories: larvic
 ---
 
