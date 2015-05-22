@@ -18,10 +18,11 @@ programación "[International Collegiate Programming Contest][icpc]" (ICPC)
 Nuestros representantes lograron ocupar el tercer lugar en
 latinoamérica y el [puesto 68 a nivel global][icpc-2015-scoreboard],
 luego de resolver 5 problemas de los 13 que se plantearon para la
-edición final de este concurso de programación. Este resultado
-representa la mejor participación peruana en el ICPC, uno de los más
-prestigiosos e importantes a nivel mundial organizado por la
-[Association for Computer Machinery][acm] (ACM) y auspiciado por [IBM][ibm].
+edición final del concurso. Este resultado representa la mejor
+participación peruana en el ICPC, uno de los más prestigiosos e
+importantes concursos de programación a nivel mundial 
+organizado por la [Association for Computer Machinery][acm] (ACM) y
+auspiciado por [IBM][ibm]. 
 
 El ganador del concurso fue el equipo de St. Petersburg National
 Research University of IT, Mechanics and Optics, seguido por Moscow
