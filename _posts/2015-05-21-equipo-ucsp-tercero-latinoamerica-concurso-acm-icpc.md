@@ -3,7 +3,7 @@ layout: post
 title: Equipo de la UCSP ocupo tercer lugar en latinoamérica en concurso de programación ACM ICPC
 date: 2015-05-21 10:00:00
 first_image: codesumare-acm.jpg
-description: Estudiantes ocuparon el tercer lugar en latinoamérica y el puesto 64 en ranking global en el concurso de programación ACM ICPC 2015 realizado en Marruecos.
+description: Estudiantes ocuparon el tercer lugar en latinoamérica y el puesto 68 en ranking global en el concurso de programación ACM ICPC 2015 realizado en Marruecos.
 categories: icpc
 ---
 
