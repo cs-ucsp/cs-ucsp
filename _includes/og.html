@@ -2,4 +2,4 @@
     <meta property="og:type"        content="article" />
     <meta property="og:title"       content="{{ page.title }}" />
     <meta property="og:description" content="{{ page.description }}" />
-    <meta property="og:image"       content="{{ site.url }}/img/{% if page.first_page %}{{ page.first_image }}{% else %}logo-ucsp.jpg{% endif %}" />
+    <meta property="og:image"       content="{{ site.url }}/img/{% if page.first_page != "" %}{{ page.first_image }}{% else %}logo-ucsp.jpg{% endif %}" />
