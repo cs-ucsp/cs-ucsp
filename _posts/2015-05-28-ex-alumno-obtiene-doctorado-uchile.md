@@ -3,7 +3,7 @@ layout: post
 title: Ex-alumno obtiene doctorado en Computación en Universidad de Chile
 date: 2015-05-28 12:00:00
 first_image: cbedregal-phd-dcc-uchile.jpg
-description: Ex-alumno Carlos Bedregal obtuvo su doctorado en la Universidad de Chile con la tesis "Análisis de Algoritmos de Arista Más Larga para Refinamiento de Mallas en Dos Dimensiones" 
+description: Ex-alumno Carlos Bedregal obtuvo su doctorado en la Universidad de Chile con la tesis «Análisis de Algoritmos de Arista Más Larga para Refinamiento de Mallas en Dos Dimensiones»
 categories: alumnos
 ---
 
