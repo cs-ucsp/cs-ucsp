@@ -3,197 +3,58 @@ layout: default
 title: Inicio
 ---
 <div class="col-lg-12">
-<!-- // CEP and Events -->
-<div class="col-md-4">
-  <h3>Concurso Escolar de Programación</h3>
-  <div class="thumbnail">
-    <img src="/cep2014/img/compite.jpg" alt="CEP 2015">
-    <div class="caption">
-      <p>El <a href="http://cs.ucsp.edu.pe/cep2015/">Concurso Escolar de Programación (CEP)</a> es una competencia que fomenta
-         la creatividad e innovación a través del análisis y solución de
-         problemas computacionales. Los participantes 
-         probarán sus habilidades de abstracción, diseño de algoritmos y 
-         programación en un ambiente competitivo. Este 
-	año el CEP será un evento del <a href="https://sites.google.com/a/spc.org.pe/clei2015/" alt="CLEI 2015">CLEI 2015</a>.
-      </p>
-      <p>
-        <a href="http://cs.ucsp.edu.pe/cep2015/" alt="Concurso Escolar de
-        Programación" class="btn btn-primary" role="button">Ir a web CEP 2015</a>
-      </p>
-    </div>
+  <!-- ./ Presentación -->
+  <div class="col-md-6">
+    <h2 class="featurette-heading">¿Qu&eacute; es Ciencia de la Computación? <span class="text-muted">Ent&eacute;rate.</span></h2>
+    <iframe width="100%" height="320"
+    src="//www.youtube.com/embed/b-P2rZdlFaw?rel=0" frameborder="0"
+    allowfullscreen></iframe>
+      <p class="lead">Entrevista a Ernesto Cuadros, Director del Programa
+      Profesional de Ciencia de la Computación de la <a
+    href="http://www.ucsp.edu.pe">{{ site.institution }}</a>, en el
+    programa Mundo Empresarial de Canal N.</p> 
   </div>
-  <h3>Noticias</h3>
-  <ul>
-  {% for post in site.posts %}
-    <li>
+
+  <!-- ./ Eventos -->
+  <div class="col-md-3">
+    <!-- ./ Publicidad eventos -->
+    <div class="thumbnail">
+      <a href="http://cs.ucsp.edu.pe/cep2015/" alt="Concurso Escolar de Programación"><img src="img/concurso-escolar-de-programacion.jpg" alt="Concurso Escolar de Programación"></a>
+    </div>
+
+    <hr/>
+
+    <h3>Eventos</h3>
+    <iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ucsp.edu.pe_duundcvua52otlt91bgduqqfak%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FLima" style="border-width:0;" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+    <br>
+    <a
+    href="http://ucsp.us7.list-manage.com/subscribe?u=fec3b5e925f1313ca5a40ab85&id=fc8919a4bc">Ent&eacute;rate
+    acerca de nuestros eventos.</a>
+  </div>
+  
+  <!-- ./ Noticias -->
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="http://ucsp.edu.pe/club-de-robotica/" alt="Club de Robótica"><img src="/club-robotica/banner-club-robotica.jpg" alt="Club de Robótica"></a>
+    </div>
+
+    <hr/>
+    
+    <h3>Noticias</h3>
+    <ul>
+      {% for post in site.posts %}
+      <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-  </ul>
-</div>
-
-<!-- Calendar -->
-<div class="col-md-4">
-  <h3>Eventos</h3>
-  <iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ucsp.edu.pe_duundcvua52otlt91bgduqqfak%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FLima" style="border-width:0;" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
-  <br>
-  <a
-  href="http://ucsp.us7.list-manage.com/subscribe?u=fec3b5e925f1313ca5a40ab85&id=fc8919a4bc">Ent&eacute;rate
-  acerca de nuestros eventos.</a>
-</div>
-
-<div class="col-md-4">
-<!-- Cursos -->
-
-<div class="thumbnail">
-    <a href="http://ucsp.edu.pe/club-de-robotica/" alt="Club de Robótica"><img src="/club-robotica/banner-club-robotica.jpg" alt="Club de Robótica"></a>
-    <div class="caption">
-    </div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-
-  <div class="thumbnail">
-    <a href="http://cs.ucsp.edu.pe/cep2015/" alt="Concurso Escolar de Programación"><img src="img/concurso-escolar-de-programacion.jpg" alt="Concurso Escolar de Programación"></a>
-    <div class="caption">
-    </div>
-  </div>
-
-  <!-- Workshops -->
-
-  <h3>Talleres 2015-I</h3>
-  <div class="panel-group" id="accordion">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-	<h4 class="panel-title">
-	<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-	Taller de criptografía
-	</a>
-	</h4>
-      </div>
-      <div id="collapseOne" class="panel-collapse collapse">
-	<div class="panel-body">
-	  <strong>Horario</strong>: viernes 11:30-13:45, Laboratorio C, UCSP Campus San Lázaro.
-	  <br>
-	  <strong>Profesora</strong>: Ana María Cuadros Valdivia (<a href="mailto:ana.maria.cuadros@ucsp.edu.pe">ana.maria.cuadros@ucsp.edu.pe</a>)
-	  <br>
-	  <strong>Objetivos</strong>: 
-          Conocer los principales algoritmos y técnicas de los
-  principales algoritmos  criptográficos. Se analizará que  tan
-  difícil es atacar o quebrar un sistema de encriptación. Así mismo,
-  se investigará los recientes avances en el campo de los
-          criptosistemas y criptoanálisis.
-          <strong>Recomentable</strong>: 
-          Conocimientos de C++ nivel básico o intermedio, este taller es altamente recomendable para alumnos cursando "Estructuras Discretas III".
-	</div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-	<h4 class="panel-title">
-	<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-	Taller de videojuegos
-	</a>
-	</h4>
-      </div>
-      <div id="collapseTwo" class="panel-collapse collapse">
-	<div class="panel-body">
-	  <strong>Horario</strong>: viernes 08:30-10:45, Laboratorio G, Campus San Lázaro.
-	  <br>
-	  <strong>Profesor</strong>: Marc-Antoine Le Guen (<a href="mailto:marc.a.leguen@gmail.com">marc.a.leguen@gmail.com</a>)
-          <br>
-          <strong>Recomendable</strong>: Haber llevado o estar llevando el curso de "Análisis y Diseño de Algoritmos".
-	</div>
-      </div>      
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-	<h4 class="panel-title">
-	<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-	Taller de Programación Competitiva (ACM)
-	</a>
-	</h4>
-      </div>
-      <div id="collapseThree" class="panel-collapse collapse">
-	<div class="panel-body">
-	  <strong>Horario</strong>: sábados 08:30-11:30. Aula 314, Campus San Lázaro.
-	  <br>
-	  <strong>Profesor</strong>: Wilfredo Bardales (<a href="mailto:wbardales@ucsp.edu.pe">wbardales@ucsp.edu.pe</a>)
-	  <br>
-	  <strong>Objetivo</strong>: El taller busca enseñar como
-  resolver problemas algorítmicos similares a los que se usan en
-  concursos/olimpiadas de programación y motivar el estudio de
-  algoritmos, programación y matemática. Se estudiaran las técnicas
-  algorítmicas para poder resolver estos problemas como programación
-  dinámica, backtracking, estructuras de datos, teoría de grafos entre
-  otros. Se profundizará el uso de los lenguajes C++ y Java.
-          <br>
-          <strong>Recomendable</strong>: Haber llevado o estar
-  llevando cursos de estructuras discretas, también conocer un
-  lenguaje de programación como C++ o java.
-	</div>
-      </div>
-    </div>  
-    <div class="panel panel-default">
-      <div class="panel-heading">
-	<h4 class="panel-title">
-	<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-	Taller de lenguaje natural
-	</a>
-	</h4>
-      </div>
-      <div id="collapseFour" class="panel-collapse collapse">
-	<div class="panel-body">
-	  <strong>Horario</strong>: viernes 16:45-19:00. Laboratio D, Campus San Lázaro.
-	  <br>
-	  <strong>Profesor</strong>: Julio Santisteban (<a href="mailto:jsantisteban@ucsp.edu.pe">jsantisteban@ucsp.edu.pe</a>)
-	  <br>
-          <strong>Objetivo</strong>: Este Taller cubre una amplia gama
-  de temas en el procesamiento del lenguaje natural, incluyendo
-  tokenización  de palabra y oración, clasificación de texto y
-  análisis de sentimiento, corrector ortográfico, extracción de
-  información, extracción de significado,  también vamos a introducir
-  la teoría de probabilidad, estadísticas y  de aprendizaje máquina
-  que son cruciales para el campo. 
-	</div>
-      </div>
-  </div>
-
-  <br>
-  <strong>Consideraciones:</strong>
-  <ul>
-    <li>
-    Se otorgará 1 crédito a quienes acumulen por lo menos 70% de asistencia.
-    </li>
-    <li>
-    Espacios limitados y se considerará estricto orden de inscripción.
-    </li>
-    <li>
-    Cualquier duda sobre fechas de inicio o detalles del taller favor
-  de contactar al respectivo profesor.
-    </li>
-  </ul>
-  <p>
-  <a class="btn btn-default btn-primary" href="https://docs.google.com/forms/d/1jogURQeSWjRBmfyd4Edz1tRHHt4nPSpm2Qg6XS2YshI/viewform">Incripciones</a>
-  </p>
-</div>
-</div>
-</div>
+</div><!-- Primera fila -->
 
 
-<!-- START THE FEATURETTES -->
+<!-- ./ Segunda fila -->
 <div class="col-lg-12">
-  <br>
   <hr class="featurette-divider">
   
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">¿Qu&eacute; es Ciencia de la Computación? <span class="text-muted">Ent&eacute;rate.</span></h2>
-      <p class="lead">Entrevista a Ernesto Cuadros, Director del Programa
-      Profesional de Ciencia de la Computación de la <a href="http://www.ucsp.edu.pe">Universidad
-      Católica San Pablo</a>, en el programa Mundo Empresarial de Canal N.</p>
-    </div>
-    <div class="col-md-5">
-      <iframe width="420" height="315" src="//www.youtube.com/embed/b-P2rZdlFaw?rel=0" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
 </div>
-<!-- /END THE FEATURETTES -->
+
