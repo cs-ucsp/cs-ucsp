@@ -4,12 +4,23 @@
                 <li {% if page.path == "people.html" %}class="active"{% endif %}><a href="/people.html">Docentes</a></li>
                 <li {% if page.path == "education.html" %}class="active"{% endif %}><a href="/education.html">Educación</a></li>
                 <li {% if page.path == "research.html" %}class="active"{% endif %}><a href="/research.html">Investigación</a></li>
-                <li {% if page.path == "estudiantes/index.html" %}class="active"{% endif %}><a href="/estudiantes">Estudiantes</a></li> 
-                <li> <a href="http://ucsp.edu.pe/club-de-robotica/">Club de Robótica</a></li>
-                <!-- <li {% if page.path == "club-robotica/index.html" %}class="active"{% endif %}><a href="/club-robotica/">Club de Robótica</a>
-                    <ul class="dropdown-menu">
-                        <li {% if page.path == "club-robotica/drones/index.html" %}class="active"{% endif %}><a href="/club-robotica/"><a href="/club-robotica/drones/">Armado y Construcciones de Drones</a></li>
-                    </ul>
-                </li> -->
+                <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estudiantes<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                    <a href="/estudiantes/index.html">Estudiantes actuales</a>
+                    </li>
+                    <li>
+                    <a href="/estudiantes/futuros.html">Estudiantes futuros</a>
+                    </li>
+                    <li>
+                    <a href="/estudiantes/destacados.html">Estudiantes destacados</a>
+                    </li>
+                    <li>
+                    <a href="/estudiantes/preguntasfrecuentes.html">Preguntas frecuentes</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="http://ucsp.edu.pe/club-de-robotica/">Club de Robótica</a></li>
               </ul>
             </div>
