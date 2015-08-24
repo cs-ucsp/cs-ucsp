@@ -105,6 +105,10 @@ div.footer-contact {
     margin-right: 0px;
 }
 
+div.header-title {
+    text-align: right;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -146,3 +150,4 @@ div.footer-contact {
         }
     }
 }
+
