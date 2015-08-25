@@ -159,5 +159,6 @@ td.semanaFila {
 }
 
 td.semanaTexto {
+    width: 140px;
     color: #2E8DA3;
 }
