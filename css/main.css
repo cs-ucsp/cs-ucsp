@@ -151,3 +151,13 @@ div.header-title {
     }
 }
 
+
+
+td.semanaFila {
+    background-color: #2E8DA3;
+    color: white;
+}
+
+td.semanaTexto {
+    color: #2E8DA3;
+}
