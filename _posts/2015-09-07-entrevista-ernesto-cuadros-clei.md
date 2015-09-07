@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CLEI 2015: Entrevista a Ernesto Cuadros en Radio Capital
+title: "CLEI 2015: Entrevista a Ernesto Cuadros en Radio Capital"
 date: 2015-09-07 16:00:00
 description: Entrevista a Ernesto Cuadros con motivo del CLEI 2015 a realizarse en Arequipa en Radio Capital
 categories: clei
