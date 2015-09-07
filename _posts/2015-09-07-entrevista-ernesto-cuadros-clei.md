@@ -21,6 +21,8 @@ Su navegador no soporta la visualización de vídeos en HTML5.
 
 
 *Acerca del CLEI:*
+
+
 El CLEI es un evento anual promovido por el Centro Latinoamericano de
 Estudios en Informática, que reúne investigadores, docentes y
 estudiantes de Universidades y Centros de Investigación
