@@ -5944,6 +5944,7 @@ button.close {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 .pull-right {
   float: right !important;
