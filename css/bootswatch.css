@@ -5756,7 +5756,7 @@ button.close {
   left: 0;
   bottom: 0;
   width: 15%;
-  opacity: 0.5;
+  opacity: 0.3;
   filter: alpha(opacity=50);
   font-size: 20px;
   color: #ffffff;
