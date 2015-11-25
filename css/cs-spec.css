@@ -1,0 +1,21 @@
+.tittle-sup {
+    color: #363D40;
+    display: inline-block;
+    margin-bottom: -1px;
+    padding-right: 15px;
+    border-bottom: solid 1px #498AB8;
+    padding-bottom: 4px;
+    font: 16px/28px 'PT Sans', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    padding-top: 8px;
+}
+.page-title-box {
+    display: block;
+    border-bottom: solid 1px #f0f0f0;
+    margin-bottom: 30px;
+    position: relative;
+}
+.clearfix, .row {
+    zoom: 1;
+}
