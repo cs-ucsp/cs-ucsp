@@ -7,7 +7,7 @@ description: Estudiantes ocuparon el tercer lugar en latinoamérica y el puesto 
 categories: icpc
 ---
 
-<img src="/img/{{ page.first_image }}"  width="240" style="float:left; margin-right: 20px;">
+<img class="alignright" src="/img/{{ page.first_image }}"  width="300" style="border-style: none; vertical-align: top;">
 
 El equipo de la {{ site.institution }} conformado por los alumnos Aldo
 Culquicondor, Carlos Guillén, y Jainor Cárdenas, junto a su entrenador

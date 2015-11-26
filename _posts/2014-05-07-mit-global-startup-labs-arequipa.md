@@ -60,8 +60,8 @@ realizara un proceso de selección por lo que los interesados en
 participar deben registrarse utilizando este 
 [formulario de registro][Registro].
 
-
-#### Acerca del MIT Global Startup Labs
+<br />
+<h4><strong>Acerca del MIT Global Startup Labs</strong></h4>
 
 El [MIT Global Startup Labs][MIT-GSL] es un grupo multi-disciplinario del MIST
 (MIT International Science and Technology Initiatives) que promueve el

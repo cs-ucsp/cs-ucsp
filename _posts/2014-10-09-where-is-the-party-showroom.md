@@ -7,7 +7,7 @@ description: Presentación de aplicación Where Is The Party en la UCSP.
 categories: startups
 ---
 
-<img src="/img/{{ page.first_image }}"  width="240" style="float:left; margin-right: 20px;">
+<img class="alignright" src="/img/{{ page.first_image }}"  width="240" style="border-style: none; vertical-align: top;">
 
 El día 18 de octubre del presente año, el equipo de Where's The Party
 realizará un "Show Room" donde presentará el primer demo funcional de

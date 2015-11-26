@@ -2,8 +2,9 @@
 layout: default
 title: Preguntas frecuentes
 ---
-
-<h1>{{ page.title }}</h1>
+<div class="page-title-box clearfix">
+      <span class="main-page-title">{{ page.title }}</span>
+</div>
 
 <ol>
   {% for item in site.data.pf %}
@@ -16,11 +17,12 @@ title: Preguntas frecuentes
 <dl>
   {% for item in site.data.pf %}
     <a name="{{ item.id }}"></a>
-    <dt>{{ item.pregunta }}</dt>
+    <dt><h4><strong>{{ item.pregunta }}</strong></h4></dt>
     <dd>
-      <p>
+      <p style="text-align:justify;">
       {{ item.respuesta }}
       </p>
     </dd>
+    <br />
     {% endfor %}
 </dl>

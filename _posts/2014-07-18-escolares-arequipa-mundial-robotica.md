@@ -6,7 +6,7 @@ description: Escolares participarán junto con LARVIC en competencia mundial en 
 categories: larvic
 ---
 
-<img src="http://cdn.larepublica.pe/sites/default/files/imagecache/img_noticia_640x384/imagen/2014/07/17/imagen-mundial-de-robotica-5.jpg" width="300" style="float:left; margin-right: 20px;">
+<!--<img src="http://cdn.larepublica.pe/sites/default/files/imagecache/img_noticia_640x384/imagen/2014/07/17/imagen-mundial-de-robotica-5.jpg" width="300" style="float:left; margin-right: 20px;">-->
 
 Estudiantes de los colegios María Auxiliadora y San Juan Bautista de La Salle
 de la ciudad de Arequipa lograron clasificar al Perú a un mundial.

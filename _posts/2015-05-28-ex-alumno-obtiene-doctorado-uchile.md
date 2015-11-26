@@ -7,7 +7,7 @@ description: Ex-alumno Carlos Bedregal obtuvo su doctorado en la Universidad de 
 categories: alumnos
 ---
 
-<img src="/img/{{ page.first_image }}"  width="240" style="float:left; margin-right: 20px;">
+<img class="alignright" src="/img/{{ page.first_image }}"  width="300" style="border-style: none; vertical-align: top;">
 
 Carlos Bedregal, ex-alumno de la {{ site.name }}, obtuvo el pasado 10 de
 abril el grado de Doctor en Ciencias con mención en Computación por el
