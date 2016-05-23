@@ -4670,6 +4670,12 @@ a.thumbnail.active {
   border-color: #fbeed5;
   color: #c09853;
 }
+.alert-gray {
+  background-color: #e8e8e8;
+  border-color: #dbdbdb;
+  color: #555;
+}
+
 .alert-warning hr {
   border-top-color: #f8e5be;
 }
