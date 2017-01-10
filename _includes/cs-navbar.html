@@ -13,10 +13,19 @@
                   </ul>
                 </li>
                 <li><a href="http://docentesley.ucsp.edu.pe/SitePages/ListaDocenteEscuela.aspx?escuela=Ciencia_de_la_Computacion">Docentes</a></li>
-                <li {% if page.path == "education.html" %}class="active"{% endif %}><a href="/education.html">Educación</a></li>
+                <li {% if page.path == "education.html" %}class="active"{% endif %}>
+                <a href="/education.html" class="dropdown-toggle" data-toggle="dropdown">Educación</a>
+                  <ul class="dropdown-menu">
+                    <li{% if page.path == "plan-de-estudios.html" %}class="active"{% endif %}>
+                    <a href="/plan-de-estudios.html">Plan de estudios</a>
+                    </li>
+                    <li {% if page.path == "malla-curricular.html" %}class="active"{% endif %}>
+                    <a href="/malla-curricular.html">Malla Curricular</a>
+                    </li>
+                  </ul>
+                </li>
                 <li {% if page.path == "research.html" %}class="active"{% endif %}><a href="http://rics.ucsp.edu.pe/mcs/" target="_blank">Maestría</a></li>                
                 <li {% if page.path == "research.html" %}class="active"{% endif %}><a href="http://rics.ucsp.edu.pe/" target="_blank">Centro de Investigación</a></li>                
-
                 <li>
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estudiantes<b class="caret"></b></a>
                   <ul class="dropdown-menu">
