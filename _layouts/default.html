@@ -34,7 +34,7 @@
       <div class="page-header" id="banner">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <a href="http://cs.ucsp.edu.pe">
+            <a href="http://ucsp.edu.pe">
             <img src="/img/logo-ucsp.png" alt="{{ site.name }}" class="img-responsive">
             </a>
           </div>
@@ -81,19 +81,34 @@
       {% endif %}
       <!-- // Footer -->
       <footer>
+       <div class="row">
+      		<div class="col-lg-3 col-md-3">
+            	{%include ucsp-footer1.html %}
+        	</div>
+        	<div class="col-lg-3 col-md-3">
+            	{%include ucsp-footer2.html %}
+        	</div>
+           	<div class="col-lg-3 col-md-3">
+            	{%include ucsp-footer3.html %}
+        	</div>
+            <div class="col-lg-3 col-md-3">
+            	{%include ucsp-footer4.html %}
+        	</div>
+      </div>
         <div class="row">
           <div class="col-lg-12">
             
             <hr>
             <p class="pull-right"><a href="#">Arriba</a></p>
-            <p>
+            <p style="font-size: 12px; color:#bbb;">
+            Todos los Derechos Reservados 2017 © · <a href="http://www.ucsp.edu.pe/">Universidad Católica San Pablo</a> | <a href="http://ucsp.edu.pe/terminosycondiciones/">Términos y Condiciones</a>
+            </p>
+            <p style="font-size: 12px; color:#bbb;">
             Campus Campiña Paisajista s/n Quinta Vivanco, Barrio de San
             Lázaro, Arequipa | Telf: +51 54 605630, +51 54 605600  anexo
             200, 300 ó 390 | Escríbenos a: <a href="mailto:internacional@ucsp.edu.pe">institucional@ucsp.edu.pe</a>
             </p>
-            <p>
-            Todos los Derechos Reservados 2016 © · <a href="http://www.ucsp.edu.pe/">Universidad Católica San Pablo</a> | <a href="http://ucsp.edu.pe/terminosycondiciones/">Términos y Condiciones</a>
-            </p>
+            
           </div>
         </div>
       </footer>
