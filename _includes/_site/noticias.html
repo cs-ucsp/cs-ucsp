@@ -1,0 +1,12 @@
+<div class="page-title-box clearfix">
+      <span class="tittle-sup">Noticias</span>
+    </div>
+
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+    
