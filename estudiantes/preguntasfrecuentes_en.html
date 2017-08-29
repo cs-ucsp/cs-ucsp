@@ -1,0 +1,28 @@
+---
+layout: default_en
+title: Preguntas frecuentes
+---
+<div class="page-title-box clearfix">
+      <span class="main-page-title">{{ page.title }}</span>
+</div>
+
+<ol>
+  {% for item in site.data.pf_en %}
+  <li><a href="#{{ item.id }}">{{ item.pregunta }}</a></li>
+  {% endfor %}
+</ol>
+
+<hr/>
+  
+<dl>
+  {% for item in site.data.pf_en %}
+    <a name="{{ item.id }}"></a>
+    <dt><h4><strong>{{ item.pregunta }}</strong></h4></dt>
+    <dd>
+      <p style="text-align:justify;">
+      {{ item.respuesta }}
+      </p>
+    </dd>
+    <br />
+    {% endfor %}
+</dl>
