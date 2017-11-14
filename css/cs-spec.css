@@ -185,3 +185,10 @@ fieldset[disabled] .navbar-inverse-top .btn-link:focus {
     line-height: 20px;
     text-transform: none;
 	}
+
+.flotante {
+    display: scroll;
+    position: fixed;
+    bottom: 55px;
+    right: 0px;
+}

@@ -1,0 +1,193 @@
+.button {
+    background: #651fff;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 1.9em;
+    height: 65px;
+    letter-spacing: .2px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 200px;
+}
+.button:hover {
+    background: #ec3257;
+}
+.button:active {
+    box-shadow: inset 0px 2px 8px -1px #d7143b;
+}
+
+.fancy-button {
+    margin: auto;
+    position: relative;
+}
+
+.frills, .frills:after, .frills:before {
+    position: absolute;
+    background: #eb1f48;
+    border-radius: 4px;
+    height: 8px;
+}
+
+.frills:after, .frills:before {
+    content: "";
+    display: block;
+}
+
+.frills:before {
+    bottom: 45px;
+}
+
+.frills:after {
+    top: 45px;
+}
+
+.left-frills {
+    right: 164px;
+    top: 28.5px;
+}
+.active .left-frills {
+    -webkit-animation: move-left 0.38s ease-out, width-to-zero 0.38s ease-out;
+    animation: move-left 0.38s ease-out, width-to-zero 0.38s ease-out;
+}
+.left-frills:before, .left-frills:after {
+    left: 15px;
+}
+.active .left-frills:before {
+    -webkit-animation: width-to-zero 0.38s ease-out, move-up 0.38s ease-out;
+    animation: width-to-zero 0.38s ease-out, move-up 0.38s ease-out;
+}
+.active .left-frills:after {
+    -webkit-animation: width-to-zero 0.38s ease-out, move-down 0.38s ease-out;
+    animation: width-to-zero 0.38s ease-out, move-down 0.38s ease-out;
+}
+
+.right-frills {
+    left: 164px;
+    top: 28.5px;
+}
+.active .right-frills {
+    -webkit-animation: move-right 0.38s ease-out, width-to-zero 0.38s ease-out;
+    animation: move-right 0.38s ease-out, width-to-zero 0.38s ease-out;
+}
+.right-frills:before, .right-frills:after {
+    right: 15px;
+}
+.active .right-frills:before {
+    -webkit-animation: width-to-zero 0.38s ease-out, move-up 0.38s ease-out;
+    animation: width-to-zero 0.38s ease-out, move-up 0.38s ease-out;
+}
+.active .right-frills:after {
+    -webkit-animation: width-to-zero 0.38s ease-out, move-down 0.38s ease-out;
+    animation: width-to-zero 0.38s ease-out, move-down 0.38s ease-out;
+}
+
+.left-frills:before, .right-frills:after {
+    -webkit-transform: rotate(34deg);
+    transform: rotate(34deg);
+}
+
+.left-frills:after, .right-frills:before {
+    -webkit-transform: rotate(-34deg);
+    transform: rotate(-34deg);
+}
+
+@-webkit-keyframes move-left {
+    0% {
+        -webkit-transform: none;
+        transform: none;
+    }
+    65% {
+        -webkit-transform: translateX(-80px);
+        transform: translateX(-80px);
+    }
+    100% {
+        -webkit-transform: translateX(-80px);
+        transform: translateX(-80px);
+    }
+}
+
+@keyframes move-left {
+    0% {
+        -webkit-transform: none;
+        transform: none;
+    }
+    65% {
+        -webkit-transform: translateX(-80px);
+        transform: translateX(-80px);
+    }
+    100% {
+        -webkit-transform: translateX(-80px);
+        transform: translateX(-80px);
+    }
+}
+@-webkit-keyframes move-right {
+    0% {
+        -webkit-transform: none;
+        transform: none;
+    }
+    65% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px);
+    }
+    100% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px);
+    }
+}
+@keyframes move-right {
+    0% {
+        -webkit-transform: none;
+        transform: none;
+    }
+    65% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px);
+    }
+    100% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px);
+    }
+}
+@-webkit-keyframes width-to-zero {
+    0% {
+        width: 38px;
+    }
+    100% {
+        width: 8px;
+    }
+}
+@keyframes width-to-zero {
+    0% {
+        width: 38px;
+    }
+    100% {
+        width: 8px;
+    }
+}
+@-webkit-keyframes move-up {
+    100% {
+        bottom: 69.75px;
+    }
+}
+@keyframes move-up {
+    100% {
+        bottom: 69.75px;
+    }
+}
+@-webkit-keyframes move-down {
+    100% {
+        top: 69.75px;
+    }
+}
+@keyframes move-down {
+    100% {
+        top: 69.75px;
+    }
+}
