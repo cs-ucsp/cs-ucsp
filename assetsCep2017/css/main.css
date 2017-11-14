@@ -50,6 +50,10 @@ p {
     color: #26a69a;
 }
 
+.gris{
+    background-color: #F5F5F5;
+}
+
 /*barra de navegación*/
 .nav-fixed {
     height: 70px;
@@ -156,7 +160,7 @@ p {
 
 /*silder fotos cep, informacion*/
 .slider {
-    height: 100% !important;
+    height: 80% !important;
 }
 
 .slider .slides li {
@@ -199,8 +203,17 @@ p {
     height: 240px !important;
 }
 
+.titletext{
+    color: #616161;
+}
+
+.rellenotext{
+    color: #616161;
+}
+
 .paddeame{
     padding-top: 4%;
+    padding-bottom: 4%;
     height: 190%;
 }
 
