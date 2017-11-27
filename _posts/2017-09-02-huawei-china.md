@@ -3,7 +3,7 @@ layout: post
 title: "Huawei seleccionó a 8 estudiantes de Ciencia de la Computación de la UCSP para estancia en China"
 date: 2017-09-02 16:00:00
 description: Son los primeros peruanos en ser parte del programa “Semillas para el Futuro”
-categories: larvic
+categories:
 ---
 
 
